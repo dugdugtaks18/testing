@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc Aldwin D. Familara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    <!--preloader-->
+    <div class="preloader">
+        <div class="counter">0</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        function counter(){
+            var count = setInterval(function(){
+                var c = parseInt($('.counter').text());
+                $('.counter').text((++c).toString());
+                if (c==100){
+                    clearInterval(count);
+                    $('.counter').addClass('hide')
+                    $('.preloader').addClass('active')
+                }
+            },15)
+        }
+        counter()
+    </script>
+    <!-- end ng preloader -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Dugdug<span>taks</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="max-width">
+          <div class="row">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Marc Aldwin D. Familara</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="home.html">VIEW RECENT PROJECT</a>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">ABOUT ME</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/profile.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Marc Aldwin and I'm a <span class="typing-2"></span></div>
+                    <p><b>Humurous. Staggering. Imaginative.</b> These words are usually used by my friends or people around me to describe who I am. They said that they always see me smiling and laughing, also they think of me as a very positive person. Some people are amazed on the incredible things that I did. They can see me excel in different things I did. I think that it is my nature that I love to explore and do new things and people around me didn't expect me to do that. I have lots of thoughts and questions in my mind that's why they said that I am imaginative. For me, thinking limitless is very important because if we think of things, we should not set a limit to it in order for us to get what we desire. I just want to clarify that I am not a perfect person, and there are some negative characteristics that I have but I choose not to mention it. </p>
+                    <a href="https://www.facebook.com/marcaldwin.familara.18">VISIT MY PROFILE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chess"></i>
+                        <div class="text">Chess Coach</div>
+                        <p>I am once a great chess player. I believe that I can teach you the fundamentals of playing it.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-dog"></i>
+                        <div class="text">Pet Whisperer</div>
+                        <p>I can communicate with your pets. In case that your pet is mad at you, I can talk to them and negotiate.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="far fa-grin-squint-tears"></i>
+                        <div class="text">Laugh</div>
+                        <p>I can laugh at you. HAHAHAHH jk. I can make you laugh whatever the situation is.</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My Exceptional Skills</div>
+                    <p>I am just a simple person but I still have exceptional skills. These skills serve as my ace in doing something. Everytime I excute my skills perfectly, I am doing my job smoothly. </p>
+                    <a href="https://youtu.be/KuMZz73BZ_s">WATCH HERE</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>Listening Skills</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="line listening"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Self-Control</span>
+                            <span>87%</span>
+                        </div>
+                        <div class="line self"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Creative Thinking</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line thinking"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Persuasion</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="line persuasion"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Empathy</span>
+                            <span>96%</span>
+                        </div>
+                        <div class="line empathy"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My Teams</h2>
+            <div class="carousel OwlCarousel2">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/chrome.jpg" alt="">
+                        <div class="text">Chrome</div>
+                        <p>Chrome (クロム Kuromu) is the alleged sorcerer - eventually scientist of Ishigami Village and Senku's friend. Originally a rival, he grew close to Senku as the de-petrified human taught him the art of science. Thank you chrome for inspiring me in creating this website.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/senku.jpg" alt="">
+                        <div class="text">Senku Ishigami</div>
+                        <p>Senku Ishigami (石いし神がみ千せん空くう Ishigami Senkū) is the main protagonist of Dr. Stone, and is friends with Taiju Oki and Yuzuriha Ogawa. He is known for his catchphrases, one of which is "Ten Billion Percent". He was de-petrified half a year before Taiju was, and eventually created the Revival Fluid with Taiju's help. In the Stone World, Senku wants to rebuild civilization and establish a Kingdom of Science. Goodluck on your journey in the stone age, thanks for your brilliant mind. You made me procrastinate each day because I have to watch your anime XD.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/tulog.jpg" alt="">
+                        <div class="text">Sleep</div>
+                        <p>This is me sleeping after doing all the workload. Thank you for giving me wonderful dreams while creating this website.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/frontrow.jpg" alt="">
+                        <div class="text">Frontrow</div>
+                        <p>This is also me doing business while studying. Thank you for the business opportunity. Because of you I still have access to the internet.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/bannerr.jpg" alt="">
+                        <div class="text">Myself</div>
+                        <p>He is the person I trusted the most. Thanks myself for always doing your best.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>For more inquiries, just feel free to message me.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Marc Aldwin D. Familara</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">D. Silang St., Brgy 7, Batangas City</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">aldwinfamilara@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message Me</div>
+                    <form class="contact-form" action="#    " method="POST">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" class="fullname" placeholder="Name">
+                            </div>
+                            <div class="field email">
+                                <input type="text" class="email-input" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" class="subject" placeholder="Subject">
+                        </div>
+                        
+                        <div class="field textarea">
+                            <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button class="send-msg" type="submit" name="send">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <footer>
+        <span>Created By <a href="https://www.facebook.com/marcaldwin.familara.18">Marc Aldwin Familara</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
+    </footer>
+   
+    <script src="script.js"></script>
+</body>
+</html>

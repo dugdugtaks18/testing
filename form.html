@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Bibolicious</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="index.html">
+            <h1><span>B</span>IBO<span>L</span>ICIOUS</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="home.html" data-after="Home">Home</a></li>
+            <li><a href="gallery.html" data-after="Service">Gallery</a></li>
+            <li><a href="menu.html" data-after="Projects">Menu</a></li>
+            <li><a href="about.html" data-after="About">About</a></li>
+            <li><a href="contact.html" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="online">
+<div class="online">
+        <h1 class="section-title">Online Delivery <span>Form</span></h1>
+      </div>
+<style>
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#Menu, #Pasta, #Pancit, #Vegetable, #Chicken, #Dessert, #Drinks{
+  width: 100%;    
+  background-color: #f1f1c1;
+}
+.box{
+	background-color: #cc8e35;
+}
+</style>
+
+<center>
+<div class = "box">
+<form action = "Basic information.html" method = "post">
+<br>
+<table border = 1 border color = "purple">
+
+<tr>
+<td><b>Name</b></td>
+<td><input placeholder = "Name" type = "text" field = "textfield" required maxlength = 50 size = 20></td>
+</tr>
+
+<tr>
+<td><b>Address</b></td>
+<td><input type = "text" field = "textfield" placeholder = "Address" required maxlength = 20 size = 20></td>
+</tr>
+
+<tr>
+<td><b>Contact No.</b></td>
+<td><input type = "text" field = "textfield" placeholder = "Contact No." required maxlength = 20 size = 20></td>
+</tr>
+
+<tr>
+<td><b>Email Address</b></td>
+<td><input type = "text" field = "textfield" placeholder = "Email Address" required maxlength = 20 size = 20></td>
+</tr>
+
+<tr>
+<td><b>Menu</b></td>
+<td> <select id="Menu" name="Menu">
+<option value="menu">Menu</option>
+<option value="Pork Adobo">Pork Adobo</option>
+<option value="Chicken Adobo">Chicken Adobo</option>
+<option value="Braised Pork Humba">Braised Pork Humba</option>
+<option value="Chicken Inasal">Chicken Inasal</option>
+<option value="Crispy Pata">Crispy Pata</option>
+<option value="Grilles Bangus">Grilles Bangus</option>
+<option value="Kare-kare">Kare-kare</option>
+<option value="Buttered Garlic Shrimp">Buttered Garlic Shrimp</option>
+<option value="Lechon Kawali">Lechon Kawali</option>
+<option value="Pork with Sampaloc">Pork with Sampaloc</option>
+<option value="Shrimp with Sampaloc">Shrimp with Sampaloc</option>
+<option value="Milkfish Sisig">Milkfish Sisig</option>
+<option value="Pork Sisig">Pork Sisig</option>
+</select>
+</tr>
+
+<tr>
+<td><b>Pasta</b></td>
+<td> <select id="Pasta" name="Pasta">
+<option value="pasta">Pasta</option>
+<option value="Bake Mac">Bake Mac Pasta</option>
+<option value="Cavattapi">Cavattapi Pasta</option>
+<option value="Gnocchie">Gnocchie Pasta</option>
+<option value="Penne">Penne Pasta</option>
+<option value="Rotini">Rotini Pasta</option>
+<option value="Spaghetti">Spaghetti Pasta</option>
+</select>
+</tr>
+
+<tr>
+<td><b>Pancit</b></td>
+<td> <select id="Pancit" name="Pancit">
+<option value="Pancit">Pancit</option>
+<option value="Bihon">Pancit Bihon</option>
+<option value="Canton">Pancit Canton</option>
+<option value="Miki">Pancit Miki</option>
+</select>
+</tr>
+
+<tr>
+<td><b>Vegetable Soup</b></td>
+<td> <select id="Vegetable" name="Soup">
+<option value="Vegetable Soup">Vegetable Soup</option>
+<option value="Chopsuey">Chopsuey</option>
+<option value="Squash with Coconut">Squash with Coconut</option>
+</select>
+</tr>
+
+<tr>
+<td><b>Chicken Wings</b></td>
+<td> <select id="Chicken" name="Chicken Wings">
+<option value="chicken wings">Chicken Wings</option>
+<option value="Buffalo">Buffalo Wings</option>
+<option value="Buttered Garlic">Buttered Garlic Wings with Dip Sauce</option>
+<option value="Honey BBQ">Honey BBQ Wings</option>
+<option value="Honey Lemon">Honey Lemon Wings</option>
+<option value="Honey Mustard">Honey Mustard Wings</option>
+<option value="Crispy Chicken">Crispy Chicken with Gravy</option>
+<option value="Salt and Pepper">Salt and Pepper Wings</option>
+<option value="Salted Egg">Salted Egg Wings</option>
+<option value="Sweet and Sour">Sweet and Sour Wings</option>
+<option value="Teriyaki">Teriyaki Wings </option>
+</select>
+</tr>
+
+<tr>
+<td><b>Dessert</b></td>
+<td> <select id="Dessert" name="Dessert">
+<option value="dessert">Dessert</option>
+<option value="Chicken Macaroni Salad">Chicken Macaroni Salad</option>
+<option value="Fruit Salad">Fruit Salad</option>
+<option value="Halo-Halo">Halo-Halo</option>
+<option value="Leche Flan">Leche Flan</option>
+<option value="Turon">Turon</option>
+<option value="Vegetable Salad">Vegetable Salad</option>
+</select>
+</tr>
+
+<tr>
+<td><b>Drinks</b></td>
+<td> <select id="Drinks" name="Drinks">
+<option value="drinks">Drinks</option>
+<option value="Apple">Apple Milkshake</option>
+<option value="Banana">Banana Milkshake</option>
+<option value="Coconut">Coconut Milkshake</option>
+<option value="Mango">Mango Milkshake</option>
+<option value="Melon">Melon Milkshake</option>
+<option value="Papaya">Papaya Milkshake</option>
+<option value="Pineapple">Pineapple Milkshake</option>
+<option value="Watermelon">Watermelon Milkshake</option>
+<option value="Buko">Buko Juice</option>
+<option value="Coke">Coke in Can</option>
+<option value="Pepsi">Pepsi in Can</option>
+<option value="Royal">Royal in Can</option>
+<option value="Sprite">Sprite in Can</option>
+</select>
+</tr>
+
+<tr>
+<td><b>Payment Method</b></td>
+<td><form action="action.html"> 
+<input type="checkbox" id="1" 
+name="method1" value="COD"> 
+<label for="method1"> Cash on Delivery </label><br> 
+<input type="checkbox" id="method2"
+name="method2" value="Gcash"> <label for="method2">Gcash e-wallet</label><br></td>
+</tr>
+
+<tr>
+<td></td>
+<td><input type = "submit" name = "submit" value = Submit><input type = "reset" name = "reset"></td>
+<tr>
+</tr>
+</div>
+</div>
+</section>
+<!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>B</span>IBO<span>L</span>ICIOUS</h1>
+      </div>
+      <h2>"Foods that will satisfy your tummy and will give you an energy"
+</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/marcaldwin.familara.18"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/dugdugtaks/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/dugdugtaks?s=09"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+      </div>
+      <p>All rights reserved © 2021</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+</form>
+</html>
